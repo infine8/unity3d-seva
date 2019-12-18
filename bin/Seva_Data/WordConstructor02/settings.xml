@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sub-game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xsi:type="WordConstructor02Settings" name="WordConstructor02" category="School">
+  
+  <level-list>
+
+    <level picture-library-name-sequence="animal">
+      <stage-list>
+        <stage char-name="GIRAFFE" syllable-sequence="ЖИ;РАФ;" possible-syllable-sequence="РАФ;СА;ГРУ;ЖИ;РАФ;ША;ВА;ГО;СУ;ЖИ;ЛЕ" />
+        <stage char-name="FOX" syllable-sequence="ЛИ;СА" possible-syllable-sequence="ЛИ;РАФ;ЛИ;СА;ГРУ;ША;ВА;ГО;СУ;СА;ЛЕ" />
+      </stage-list>
+    </level>
+
+    <level picture-library-name-sequence="fruit">
+      <stage-list>
+        <stage char-name="LEMON" syllable-sequence="ЛИ;МОН" possible-syllable-sequence="МОН;РАФ;ЛИ;СА;ГРУ;ША;ВА;ГО;ЛИ;КА;МОН;ЛЕ" />
+        <stage char-name="CHERRY" syllable-sequence="ВИ;ШНЯ" possible-syllable-sequence="ВИ;РАФ;ШНЯ;СА;ГРУ;ША;ВА;ВИ;СУ;ШНЯ;МОТ;МОР;" />
+      </stage-list>
+    </level>
+
+  </level-list>
+  
+</sub-game>

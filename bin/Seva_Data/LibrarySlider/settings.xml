@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sub-game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+          xsi:type="LibrarySliderSettings" name="LibrarySlider" category="Library">
+  <level-list>
+
+    <level picture-library-name-sequence="animal;fruit" lang-library-name-sequence="ru">
+      <stage-list>
+        <stage>
+          <pic-list>
+            <pic char-name="WARLUS">МОРЖ</pic>
+            <pic char-name="BEGEMOT">БЕГЕМОТ</pic>
+            <pic char-name="GIRAFFE">ЖИРАФ</pic>
+            <pic char-name="ELEPHANT">СЛОН</pic>
+            <pic char-name="FOX">ЛИСА</pic>
+            <pic char-name="CHERRY">ВИШНЯ</pic>
+            <pic char-name="PLUM">СЛИВА</pic>
+            <pic char-name="PEAR">ГРУША</pic>
+            <pic char-name="LEMON">ЛИМОН</pic>
+            <pic char-name="APPLE">ЯБЛОКО</pic>
+          </pic-list>
+        </stage>
+      </stage-list>
+    </level>
+  </level-list>
+</sub-game>

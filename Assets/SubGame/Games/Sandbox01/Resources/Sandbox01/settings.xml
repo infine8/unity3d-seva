@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sub-game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           xsi:type="Sandbox01Settings" name="Sandbox01" category="Sandbox">
+  
+  <level-list>
+    <level>
+      <stage-list>
+        <stage thing-name-sequence=""></stage>
+      </stage-list>
+    </level>
+  </level-list>
+  
+</sub-game>

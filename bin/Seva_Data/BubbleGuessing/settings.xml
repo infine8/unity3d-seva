@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sub-game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+          xsi:type="BubbleGuessingSettings" name="BubbleGuessing" category="School">
+
+  <level-list>
+
+    <level name="1" tag-sequence="rr">
+
+      <spawn-settings>
+        <max-char-on-screen from="3" to="6"/>
+        <spawn-period-range from="2" to="5"/>
+        <velocity-range from="7" to="10"/>
+        <force-range yFrom="-0.5" yTo="0.5"/>
+      </spawn-settings>
+
+      <stage-list>
+        <stage max-error-count="1" max-missed-char-count="2" max-missclick-count="3" no-help="false" char-library-name-sequence="ru;spec" char-sequence="к;а;л;о;м;т">
+          <exp>кот</exp>
+        </stage>
+        <stage max-error-count="1" max-missed-char-count="2" max-missclick-count="3" no-help="false" char-library-name-sequence="ru;spec" char-sequence="а;б;м;ж;д;а;у;у;с;к;а">
+          <exp>жук</exp>
+        </stage>
+      </stage-list>
+
+    </level>
+
+    <level name="2" tag-sequence="rr">
+
+      <spawn-settings>
+        <max-char-on-screen from="3" to="6"/>
+        <spawn-period-range from="2" to="4"/>
+        <velocity-range from="7" to="10"/>
+        <force-range yFrom="-0.5" yTo="0.5"/>
+      </spawn-settings>
+
+      <stage-list>
+        <stage max-error-count="1" max-missed-char-count="2" max-missclick-count="3" no-help="false" char-library-name-sequence="ru;spec" char-sequence="к;с;л;х;о;н;т">
+          <exp>слон</exp>
+        </stage>
+        <stage max-error-count="1" max-missed-char-count="2" max-missclick-count="3" no-help="false" char-library-name-sequence="ru;spec" char-sequence="а;б;с;ж;о;а;у;в;с;к;а">
+          <exp>сова</exp>
+        </stage>
+        <stage max-error-count="1" max-missed-char-count="2" max-missclick-count="3" no-help="false" char-library-name-sequence="ru;spec" char-sequence="к;д;ы;о;м;т;н;д;ж;я">
+          <exp>дыня</exp>
+        </stage>
+        <stage max-error-count="1" max-missed-char-count="2" max-missclick-count="3" no-help="false" char-library-name-sequence="ru;spec" char-sequence="к;а;л;о;и;т;д;в;и;з">
+          <exp>киви</exp>
+        </stage>
+      </stage-list>
+
+    </level>
+
+    <level name="3" tag-sequence="rr">
+
+      <spawn-settings>
+        <max-char-on-screen from="3" to="6"/>
+        <spawn-period-range from="2" to="4"/>
+        <velocity-range from="2" to="4"/>
+        <force-range yFrom="-0.5" yTo="0.5"/>
+      </spawn-settings>
+
+      <stage-list>
+        <stage max-error-count="1" max-missed-char-count="2" max-missclick-count="3" no-help="false" char-library-name-sequence="ru;spec" char-sequence="к;п;л;а;н;у;ф;д;т;а">
+          <exp>панда</exp>
+        </stage>
+        <stage max-error-count="1" max-missed-char-count="2" max-missclick-count="3" no-help="false" char-library-name-sequence="ru;spec" char-sequence="а;в;с;и;о;а;ш;в;н;к;я">
+          <exp>вишня</exp>
+        </stage>
+        <stage max-error-count="1" max-missed-char-count="2" max-missclick-count="3" no-help="false" char-library-name-sequence="ru;spec" char-sequence="к;д;ы;о;б;т;н;а;ж;я;н;л;ж;а;э;з;н;">
+          <exp>банан</exp>
+        </stage>
+      </stage-list>
+
+    </level>
+
+    <level name="4" tag-sequence="rr">
+
+      <spawn-settings>
+        <max-char-on-screen from="3" to="6"/>
+        <spawn-period-range from="2" to="4"/>
+        <velocity-range from="2" to="4.5"/>
+        <force-range yFrom="-0.5" yTo="0.5"/>
+      </spawn-settings>
+
+      <stage-list>
+
+        <stage max-error-count="1" max-missed-char-count="2" max-missclick-count="3" no-help="false" char-library-name-sequence="ru;spec" char-sequence="л;о;с;м;">
+          <exp template="?лон">слон</exp>
+        </stage>
+        <stage max-error-count="1" max-missed-char-count="2" max-missclick-count="3" no-help="false" char-library-name-sequence="ru;spec" char-sequence="а;о;с;">
+          <exp template="?ок">сок</exp>
+        </stage>
+      </stage-list>
+
+    </level>
+
+
+  </level-list>
+</sub-game>

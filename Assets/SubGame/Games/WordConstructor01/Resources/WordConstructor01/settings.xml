@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sub-game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+          xsi:type="WordConstructor01Settings" name="WordConstructor01" category="School">
+  <level-list>
+    <level lang-library-name-sequence="ru" lang-outline-library-name-sequence="ru-outline">
+      <stage-list>
+      	<stage showed-word="НОС">СОН</stage>
+        <stage showed-word="КЛУ">ЛУК</stage>
+        <stage showed-word="ЖКУ">ЖУК</stage>
+        <stage showed-word="ОКТ">КОТ</stage>
+      </stage-list>
+    </level>
+    <level lang-library-name-sequence="ru" lang-outline-library-name-sequence="ru-outline">
+      <stage-list>
+        <stage showed-word="СОЛН">СЛОН</stage>
+        <stage showed-word="ВАСО">СОВА</stage>
+        <stage showed-word="ОРЕЛ">ОРЕЛ</stage>
+        <stage showed-word="УАТК">УТКА</stage>
+        <stage showed-word="ЯЫДН">ДЫНЯ</stage>
+        <stage showed-word="УАПК">ПАУК</stage>
+      </stage-list>
+    </level>
+    <level lang-library-name-sequence="ru" lang-outline-library-name-sequence="ru-outline">
+      <stage-list>
+        <stage showed-word="УГШРА">ГРУША</stage>
+        <stage showed-word="ВИШНЯ">ВИШНЯ</stage>
+        <stage showed-word="УЗАРБ">АРБУЗ</stage>
+        <stage showed-word="АНПДА">ПАНДА</stage>
+        <stage showed-word="ЦЛЯАП">ЦАПЛЯ</stage>
+        <stage showed-word="УПЕТХ">ПЕТУХ</stage>
+        <stage showed-word="ЛКБЕА">БЕЛКА</stage>
+        <stage showed-word="ЕПЧЛА">ПЧЕЛА</stage>
+      </stage-list>
+    </level>
+  </level-list>
+</sub-game>

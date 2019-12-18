@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sub-game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           xsi:type="TexturePaintSettings" name="TexturePaint" category="School">
+  <level-list>
+
+<!--     <level tag-sequence="tel">
+      <stage-list>
+        <stage paint-char-name="PaintChar-Slash"></stage>
+        <stage paint-char-name="PaintChar-Semicirle1"></stage>
+        <stage paint-char-name="PaintChar-Semicirle2"></stage>
+      </stage-list>
+    </level>
+ -->
+    <level tag-sequence="rr">
+      <stage-list>
+<!--         <stage paint-char-name="PaintChar-D"></stage>
+ -->        <stage paint-char-name="PaintChar-F"></stage>
+      </stage-list>
+    </level>
+  </level-list>
+</sub-game>

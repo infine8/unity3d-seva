@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{4E9F78D0-A3F9-E595-2BCC-21E04A6BF194}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity4.3.4/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity4.3.4/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Scripts\CoherentUI\CoherentUISystem.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\CoherentUI\CoherentUIView.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\CoherentUI\Detail\CoherentExposePropertyAttribute.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\CoherentUI\Detail\CoherentMethodAttribute.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\CoherentUI\Detail\CoherentUIDialog.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\CoherentUI\Detail\CoherentUIViewRenderer.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\CoherentUI\Detail\FileHandler.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\CoherentUI\Detail\InputManager.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\CoherentUI\Detail\License.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\CoherentUI\Detail\LogHandler.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\CoherentUI\Detail\SystemListener.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\CoherentUI\Detail\ViewListener.cs" />
+     <None Include="Assets\Toolkits\AudioToolkit\Readme.txt" />
+     <None Include="Assets\SubGame\Games\LibrarySlider\Resources\LibrarySlider\settings.xml" />
+     <None Include="Assets\Toolkits\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\Toolkits\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Toolkits\2DColliderGen\FlashDeploymentReadme.txt" />
+     <None Include="Assets\Toolkits\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Toolkits\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\Toolkits\TexturePaint\Resources\Shaders\TexturePaintImpulseLocation4Shader.shader" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
+     <None Include="Assets\SubGame\Games\TexturePaint\Resources\TexturePaint\settings.xml" />
+     <None Include="Assets\Toolkits\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\SubGame\Games\Sandbox01\Resources\Sandbox01\settings.xml" />
+     <None Include="Assets\SubGame\Games\HideSeekCards\Resources\HideSeekCards\settings.xml" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2d\Goodies\TexturePacker\Exporter\2dtoolkit\exporter.xml" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
+     <None Include="Assets\Common\Textures\Test\NewShader.shader" />
+     <None Include="Assets\Toolkits\2DColliderGen\Readme.txt" />
+     <None Include="Assets\Toolkits\TexturePaint\Resources\Shaders\TexturePaintInitializeToValueShader.shader" />
+     <None Include="Assets\SubGame\Games\BubbleGuessing\Resources\BubbleGuessing\settings.xml" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2dUI\Shaders\DepthMask.shader" />
+     <None Include="Assets\Toolkits\FingerGestures\Readme.txt" />
+     <None Include="Assets\temp\userdata.xml" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\Toolkits\TexturePaint\Resources\Shaders\TexturePaintImpulseLocationTexShader.shader" />
+     <None Include="Assets\Toolkits\Logging\Plugins\Android\TestFlight.AndroidManifest.xml" />
+     <None Include="Assets\Common\Resources\settings.xml" />
+     <None Include="Assets\Toolkits\StrangeIoC\extensions\ReadMe.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Toolkits\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\Toolkits\TexturePaint\Resources\Shaders\TexturePaintImpulseLocation8Shader.shader" />
+     <None Include="Assets\SubGame\Games\SeaGuessing\Resources\SeaGuessing\settings.xml" />
+     <None Include="Assets\Standard Assets\Shaders\CoherentUI\DiffuseIgnoreZ.shader" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2d\Shaders\LitPremulVertexColor.shader" />
+     <None Include="Assets\Toolkits\2DColliderGen\Demo\DemoOrthelloPro\ForegroundAtlas.xml" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2d\Shaders\PremulVertexColor.shader" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2d\Shaders\goodies\PackedTextMesh.shader" />
+     <None Include="Assets\Toolkits\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2d\Shaders\Blend2TexVertexColor.shader" />
+     <None Include="Assets\Standard Assets\Shaders\CoherentUI\TransparentDiffuseIgnoreZ.shader" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2dUI\Shaders\DepthMaskSolid.shader" />
+     <None Include="Assets\Toolkits\TexturePaint\TexturePaint_Documentation.txt" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Toolkits\NGUI\ReadMe - 2.6.4.txt" />
+     <None Include="Assets\Toolkits\NGUI\Examples\Other\English.txt" />
+     <None Include="Assets\Toolkits\TexturePaint\Resources\Shaders\TexturePaintInitializeToTextureShader.shader" />
+     <None Include="Assets\Toolkits\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\Toolkits\Parse\Parse.Unity.xml" />
+     <None Include="Assets\Toolkits\lwf\Resources\LWFShaders\LWFNormal.shader" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2d\Shaders\resources\BlendVertexColor.shader" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Toolkits\CoherentUI\Copyright.txt" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2d\Shaders\LitCutoutVertexColor.shader" />
+     <None Include="Assets\Toolkits\lwf\Resources\LWFShaders\LWFPreMultipliedAlpha.shader" />
+     <None Include="Assets\Toolkits\lwf\Resources\LWFShaders\SystemFont.shader" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2d\Editor\EditorUtility.shader" />
+     <None Include="Assets\Toolkits\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\Toolkits\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\Toolkits\lwf\Resources\LWFShaders\BitmapFont.shader" />
+     <None Include="Assets\SubGame\Games\WordConstructor02\Resources\WordConstructor02\settings.xml" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+     <None Include="Assets\Toolkits\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\SubGame\Games\WordConstructor01\Resources\WordConstructor01\settings.xml" />
+     <None Include="Assets\Common\Fonts\Default\Default.txt" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
+     <None Include="Assets\Toolkits\NGUI\Examples\Other\French.txt" />
+     <None Include="Assets\Toolkits\TexturePaint\Resources\Shaders\TexturePaintImpulseLocationShader.shader" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Toolkits\2DColliderGen\Demo\DemoReadme.txt" />
+     <None Include="Assets\Toolkits\Logging\Valion\Resources\logging.xml" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+     <None Include="Assets\Toolkits\HOTween\HOTween_License.txt" />
+     <None Include="Assets\SubGame\Games\TestSubGame\Resources\TestSubGame\settings.xml" />
+     <None Include="Assets\Toolkits\TexturePaint\Resources\Shaders\TexturePaintColorDissipationTexShader.shader" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+     <None Include="Assets\Toolkits\2DColliderGen\ChangeLog.txt" />
+     <None Include="Assets\Toolkits\TexturePaint\Resources\Shaders\TexturePaintColorDissipationShader.shader" />
+     <None Include="Assets\Toolkits\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\Toolkits\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
+     <None Include="Assets\Toolkits\Parse\README.txt" />
+ <Reference Include="CoherentUIMobileNet">
+ <HintPath>Assets\Plugins\CoherentUIMobileNet.dll</HintPath>
+ </Reference>
+ <Reference Include="CoherentUINet">
+ <HintPath>Assets\Plugins\CoherentUINet.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonFx.Json">
+ <HintPath>Assets\Toolkits\JsonFx.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="2DColliderGen_Runtime">
+ <HintPath>Assets\Toolkits\2DColliderGen\Plugins\2DColliderGen\2DColliderGen_Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTween">
+ <HintPath>Assets\Toolkits\HOTween\HOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="Parse.Unity">
+ <HintPath>Assets\Toolkits\Parse\Parse.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="OSCsharp">
+ <HintPath>Assets\Toolkits\TouchScript\Plugins\OSCsharp.dll</HintPath>
+ </Reference>
+ <Reference Include="TouchScript">
+ <HintPath>Assets\Toolkits\TouchScript\Plugins\TouchScript.dll</HintPath>
+ </Reference>
+ <Reference Include="TouchScript.Pro">
+ <HintPath>Assets\Toolkits\TouchScript\Plugins\TouchScript.Pro.dll</HintPath>
+ </Reference>
+ <Reference Include="TUIOsharp">
+ <HintPath>Assets\Toolkits\TouchScript\Plugins\TUIOsharp.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

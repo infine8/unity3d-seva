@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sub-game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           xsi:type="SeaGuessingSettings" name="SeaGuessing" category="School">
+  <level-list>
+
+    <level tag-sequence="rr">
+      <stage-list>
+        <stage char-library-name-sequence="ru" possible-char-sequence="А;Б;">А</stage>
+        <stage char-library-name-sequence="ru" possible-char-sequence="В;Г;">В</stage>
+      </stage-list>
+    </level>
+
+    <level tag-sequence="rr">
+      <stage-list>
+        <stage char-library-name-sequence="ru" possible-char-sequence="М;Н;О;">Н</stage>
+        <stage char-library-name-sequence="ru" possible-char-sequence="Ф;Д;К;">Д</stage>
+        <stage char-library-name-sequence="ru" possible-char-sequence="Ю;Е;Я;">Ю</stage>
+        <stage char-library-name-sequence="ru" possible-char-sequence="Й;Т;Ь;">Ь</stage>
+      </stage-list>
+    </level>
+
+    <level tag-sequence="rr">
+      <stage-list>
+        <stage char-library-name-sequence="ru" possible-char-sequence="Ж;З;О;С;">Ж</stage>
+        <stage char-library-name-sequence="ru" possible-char-sequence="Х;Э;Р;В;">Х</stage>
+        <stage char-library-name-sequence="ru" possible-char-sequence="Ъ;Ш;Щ;Ц;">Ъ</stage>
+        <stage char-library-name-sequence="ru" possible-char-sequence="И;Й;Е;М;">Й</stage>
+        <stage char-library-name-sequence="ru" possible-char-sequence="К;Щ;С;Н;">Щ</stage>
+      </stage-list>
+    </level>
+  </level-list>
+  
+</sub-game>

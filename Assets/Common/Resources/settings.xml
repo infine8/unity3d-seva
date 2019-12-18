@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <default-audio-controller-snapshot sound-mute="false" music-mute="false" sound-volume="1" music-volume="1" />
+
+  <game-scene-list start-scene-name="MainMenu">
+    <scene name="Intro" />
+    <scene name="MainMenu" />
+    <scene name="BubbleGuessing" />
+    <scene name="HideSeekCards" />
+    <scene name="LibrarySlider" />
+    <scene name="Sandbox01" />
+    <scene name="SeaGuessing" />
+    <scene name="TexturePaint" />
+    <scene name="WordConstructor01" />
+    <scene name="WordConstructor02" />
+  </game-scene-list>
+  
+  <char-library-list>
+    <char-library name="ru" sequence="А;Б;В;Г;Д;Е;Ё;Ж;З;И;Й;К;Л;М;Н;О;П;Р;С;Т;У;Ф;Х;Ц;Ч;Ш;Щ;Ъ;Ы;Ь;Э;Ю;Я;" />
+    <char-library name="ru-outline" sequence="А;Б;В;Г;Д;Е;Ё;Ж;З;И;Й;К;Л;М;Н;О;П;Р;С;Т;У;Ф;Х;Ц;Ч;Ш;Щ;Ъ;Ы;Ь;Э;Ю;Я;" />
+    <char-library name="spec" sequence="SPOT;" />
+    <char-library name="animal" sequence="WARLUS;BEGEMOT;GIRAFFE;ELEPHANT;FOX" />
+    <char-library name="fruit" sequence="CHERRY;PLUM;PEAR;LEMON;APPLE" />
+  </char-library-list>
+
+  <sub-game-level-tag-data>
+    <tag key="math">Математика</tag>
+    <tag key="psy">Психология</tag>
+    <tag key="rr">Родная Речь</tag>
+    <tag key="tel">Телепатия</tag>
+  </sub-game-level-tag-data>
+  
+</settings>
